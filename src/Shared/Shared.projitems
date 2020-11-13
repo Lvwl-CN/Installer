@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a4625531-030f-41e6-9f5a-b4535a3c470a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ApplicationParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Control\WindowHelp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Language\LanguageConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PropertyChangedBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Uninstall.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\RegeditUtility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\ServiceUtility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\ShortcutUtility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\XmlUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Language\en-US.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Language\zh-CN.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Theme\TextBlock.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Theme\TextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Theme\CheckBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Theme\Window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Theme\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Theme\Default.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

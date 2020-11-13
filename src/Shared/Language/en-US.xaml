@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="StrCopyright">Copyright© 2020 GitHub</sys:String>
+    <sys:String x:Key="StrLicensePath">pack://application:,,,/Licenses/en-US.rtf</sys:String>
+    <sys:String x:Key="StrClose">Close</sys:String>
+    <sys:String x:Key="StrPrevious">Previous</sys:String>
+    <sys:String x:Key="StrNext">Next</sys:String>
+    <sys:String x:Key="StrInstall">Install</sys:String>
+    <sys:String x:Key="StrUninstall">Uninstall</sys:String>
+    <sys:String x:Key="StrUninstallAppName">Uninstall {0}</sys:String>
+    <sys:String x:Key="StrCancel">Cancel</sys:String>
+    <sys:String x:Key="StrComplete">Complete</sys:String>
+
+    <!--许可协议界面-->
+    <sys:String x:Key="StrAgreeLicense">I agree</sys:String>
+
+    <!--目录选择界面-->
+    <sys:String x:Key="StrSearchDirectory">Browse</sys:String>
+    <sys:String x:Key="StrInstallationDirectorySelect">Please select the installation directory</sys:String>
+
+    <!--安装界面-->
+    <sys:String x:Key="StrRemoveOldVersion">Delete old version</sys:String>
+    <sys:String x:Key="StrBegin">Start</sys:String>
+    <sys:String x:Key="StrCreateDirectory">Create directory:{0}</sys:String>
+    <sys:String x:Key="StrUnzipFile">Copy file:{0}</sys:String>
+    <sys:String x:Key="StrUnzipComplete">File copy complete</sys:String>
+    <sys:String x:Key="StrCreateMenuShortcut">Create start menu shortcut</sys:String>
+    <sys:String x:Key="StrCreateDesktopShortcut">Create desktop shortcut</sys:String>
+    <sys:String x:Key="StrInstallComplete">Installation is complete</sys:String>
+
+    <!--安装完成界面-->
+    <sys:String x:Key="StrRun">Run</sys:String>
+
+    <!--卸载确认界面-->
+    <sys:String x:Key="StrConfirmUninstall">Are you sure you want to uninstall?</sys:String>
+
+    <!--卸载界面-->
+    <sys:String x:Key="StrStartUninstall">Start</sys:String>
+    <sys:String x:Key="StrRemoveFile">Delete file:{0}</sys:String>
+    <sys:String x:Key="StrRemoveRegedit">Delete registry</sys:String>
+    <sys:String x:Key="StrRemoveShortcut">Remove shortcuts</sys:String>
+    <sys:String x:Key="StrUninstallComplete">Uninstall complete</sys:String>
+</ResourceDictionary>

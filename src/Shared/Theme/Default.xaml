@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://Application:,,,/Theme/Button.xaml"/>
+        <ResourceDictionary Source="pack://Application:,,,/Theme/CheckBox.xaml"/>
+        <ResourceDictionary Source="pack://Application:,,,/Theme/TextBox.xaml"/>
+        <ResourceDictionary Source="pack://Application:,,,/Theme/TextBlock.xaml"/>
+        <ResourceDictionary Source="pack://Application:,,,/Theme/Window.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

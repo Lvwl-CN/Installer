@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="StrCopyright">Copyright© 2020 GitHub</sys:String>
+    <sys:String x:Key="StrLicensePath">pack://application:,,,/Licenses/zh-CN.rtf</sys:String>
+    <sys:String x:Key="StrClose">关闭</sys:String>
+    <sys:String x:Key="StrPrevious">上一步</sys:String>
+    <sys:String x:Key="StrNext">下一步</sys:String>
+    <sys:String x:Key="StrInstall">安装</sys:String>
+    <sys:String x:Key="StrUninstall">卸载</sys:String>
+    <sys:String x:Key="StrUninstallAppName">卸载{0}</sys:String>
+    <sys:String x:Key="StrCancel">取消</sys:String>
+    <sys:String x:Key="StrComplete">完成</sys:String>
+
+    <!--许可协议界面-->
+    <sys:String x:Key="StrAgreeLicense">我同意此协议</sys:String>
+
+    <!--目录选择界面-->
+    <sys:String x:Key="StrSearchDirectory">浏览</sys:String>
+    <sys:String x:Key="StrInstallationDirectorySelect">请选择安装目录</sys:String>
+
+    <!--安装界面-->
+    <sys:String x:Key="StrRemoveOldVersion">删除旧版本</sys:String>
+    <sys:String x:Key="StrBegin">开始安装</sys:String>
+    <sys:String x:Key="StrCreateDirectory">创建目录:{0}</sys:String>
+    <sys:String x:Key="StrUnzipFile">复制文件:{0}</sys:String>
+    <sys:String x:Key="StrUnzipComplete">文件复制完成</sys:String>
+    <sys:String x:Key="StrCreateMenuShortcut">创建开始菜单快捷方式</sys:String>
+    <sys:String x:Key="StrCreateDesktopShortcut">创建桌面快捷方式</sys:String>
+    <sys:String x:Key="StrInstallComplete">安装完成</sys:String>
+
+    <!--安装完成界面-->
+    <sys:String x:Key="StrRun">运行程序</sys:String>
+
+    <!--卸载确认界面-->
+    <sys:String x:Key="StrConfirmUninstall">确定卸载吗？</sys:String>
+
+    <!--卸载界面-->
+    <sys:String x:Key="StrStartUninstall">开始卸载</sys:String>
+    <sys:String x:Key="StrRemoveFile">删除文件:{0}</sys:String>
+    <sys:String x:Key="StrRemoveRegedit">删除注册表</sys:String>
+    <sys:String x:Key="StrRemoveShortcut">删除快捷方式</sys:String>
+    <sys:String x:Key="StrUninstallComplete">卸载完成</sys:String>
+
+</ResourceDictionary>
