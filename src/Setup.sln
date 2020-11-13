@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{A4625531-030F-41E6-9F5A-B4535A3C470A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Install.Framework", "Setup.Framework\Install.Framework.csproj", "{B45789FD-C969-4DB1-A839-7197070025AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Install.Framework", "Install.Framework\Install.Framework.csproj", "{B45789FD-C969-4DB1-A839-7197070025AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uninstall.Framework", "Uninstall.Framework\Uninstall.Framework.csproj", "{F4F50F51-6BC2-4846-82E1-BC31D6C86591}"
 EndProject

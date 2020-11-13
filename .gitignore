@@ -1,0 +1,5 @@
+src/Install.Framework/bin/
+src/Install.Framework/obj/
+src/Uninstall.Framework/bin/
+src/Uninstall.Framework/obj/
+*.suo
